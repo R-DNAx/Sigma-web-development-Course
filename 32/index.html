@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&family=Lalezar&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 95px;
+        }
+
+        .card {
+            background-color: white;
+            width: 398px;
+            height: 604px;
+            border-radius: 7px;
+            padding: 0 0 0;
+        }
+
+        .image {
+            padding: 4px;
+        }
+
+        .image img {
+            border-radius: 14px;
+
+        }
+
+        .content {
+            padding: 13px;
+            font-family: "Baloo Bhai 2", serif;
+
+        }
+
+        .content p {
+            font-size: 20px;
+            color: gray;
+        }
+
+        .capsules {
+            padding: 0 10px 0 20px;
+        }
+
+        .capsules span {
+            border: 2px solid black;
+            padding: 0px 6px;
+            border-radius: 19px;
+            font-size: 15px;
+            font-family: "Baloo Bhaina 2", serif;
+        }
+        .button{
+            text-align: center;
+
+        }
+        .button button{
+            padding: 10px 25px;
+            border-radius: 17px;
+            background-color: rgb(190, 217, 253);
+            color: rgb(36, 97, 209);
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .button button:hover{
+            background-color: rgb(141, 190, 255);
+            color: rgb(74, 120, 207);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="390px" height="250px"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CathedralofLearningLawinWinter.jpg/1200px-CathedralofLearningLawinWinter.jpg"
+                alt="">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Winter Coming Hard</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quaerat itaque eum, accusamus laborum
+                architecto quos facere suscipit pariatur adipisci cum at porro.</p>
+        </div>
+        <div class="button">
+            <button> Read More </button>
+        </div>
+    </div>
+</body>
+
+</html>

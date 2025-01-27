@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vertically Aligned Form</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+        label {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+        
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode">
+        
+        <input type="submit" value="Submit" style="margin-top: 10px;">
+    </form>
+</body>
+</html>

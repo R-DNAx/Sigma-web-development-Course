@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .red1 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+body {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: black;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 90px;
+    margin-top: 2px;
+    padding: 5px;
+    background-color: rgb(20, 12, 20);
+}
+
+
+.logo {
+    color: rgb(150, 197, 241);
+    padding-left: 55px;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.red {
+    color: rgb(247, 50, 184);
+    padding-right: 55px;
+
+    font-size: 30px;
+}
+
+.nav, .red1 {
+    display: flex;
+    padding-inline: 25px;
+    font-weight: 600;
+    font-size: larger;
+    gap: 50px;
+    margin-top: auto;
+    
+}
+
+.red1 a {
+    color: rgb(189, 253, 228);
+    text-decoration: none;
+    
+    
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}
+.searchbox {
+    padding: 5px;
+    border-radius: 90px;
+    border: 2px solid rgb(189, 253, 228);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(20, 12, 20);
+    color: rgb(189, 253, 228);
+    text-align: center;
+    cursor: pointer;
+}
+
+.searchbox:hover{
+    border: 2px solid rgb(234, 28, 237);
+    color: rgb(31, 214, 77);
+
+
+}
+.searchbox:focus{
+    border: 2px solid rgb(234, 28, 237);
+    outline: none;
+    
+}
+.button{
+    border-radius: 90px;
+    border: 2px solid rgb(189, 253, 228);
+    height: 25px;
+    width: 90px;
+    background-color: rgb(20, 12, 20);
+    color: rgb(189, 253, 228);
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    border: 2px solid rgb(234, 28, 237);
+    color: rgb(31, 214, 77);
+
+}
+.button:focus{
+    border: 2px solid rgb(234, 28, 237);
+    outline: none;
+    
+}
+
+.red1 a:hover {
+    color: rgb(31, 214, 77);
+}
+.red1 a:active {
+    color: rgb(206, 71, 239);
+}
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.auth-buttons .login {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.auth-buttons .signup {
+    height: 30px;
+    width: 90px;
+    font-size: 14px;
+}
+
+.auth-buttons .login:hover, .auth-buttons .signup:hover {
+    border: 2px solid rgb(234, 28, 237);
+    color: rgb(31, 214, 77);
+}
+
+.auth-buttons .login:focus, .auth-buttons .signup:focus {
+    border: 2px solid rgb(234, 28, 237);
+    outline: none;
+}

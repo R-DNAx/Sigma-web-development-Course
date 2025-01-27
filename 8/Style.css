@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+p{
+    background-color: rgb(155, 236, 208);
+}
+a{
+    background-color: rgb(248, 152, 152);
+}
+div{
+    background-color: burlywood;
+}
+span{
+    background-color: rgb(148, 80, 197);
+}

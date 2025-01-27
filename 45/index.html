@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition Property</title>
+    <style>
+        .container{
+            width: 80vw;
+            height: 40vh;
+            background-color: aquamarine;
+
+        }
+        .box{
+            width: 8vw;
+            height: 4vh;
+            background-color: violet;
+            transition-property: background-color transform;
+            transition-duration: 3s;
+            transition-timing-function: inherit;
+            transition-delay: 2s;
+        }
+        .translate{
+            transform: translateX(10vw) translateY(10vh) scale(2);
+            background-color: brown;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate"></div>
+    </div>
+</body>
+</html>

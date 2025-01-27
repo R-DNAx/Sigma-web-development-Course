@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations CSS</title>
+    <style>
+        .container{
+            width: 55vw;
+            height: 80vh;
+            background-color: #f5ffbf;
+
+        }
+        .box{
+            width: 35px;
+            height: 45px;
+            background-color: salmon;
+            /* animation-name: niso;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.26, 0.65, 0.76, 0.38);
+            animation-delay: 2s;
+            animation-direction: reverse;
+            animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: niso 2s ;
+            animation: niso2 2s cubic-bezier(0.26, 0.65, 0.76, 0.38) 2s infinite alternate-reverse ;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        @keyframes niso{
+            from {
+                /* width: 0%; */
+                background-color: aquamarine;
+            }
+            to {
+                /* width: 100%; */
+                background-color: blueviolet;
+                /* transform: translateX(1000px); */
+            }
+        }
+        @keyframes niso2{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(90deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            75%{
+                transform: rotate(270deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
