@@ -1,28 +1,121 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
     padding: 0;
     margin: 0;
 
 }
-.main{
+body{
+    background-color: black;
+}
+.main {
     background-image: url("assets/image/bg.jpg");
     background-position: center center;
-    background-size: max(1200px 100vw);
+    /* background-size: max(1200px 100vw); */
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     position: relative;
 }
-.main .box{
-    height: 80vw;
+
+.main .box {
+    height: 100%;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.75;
     position: absolute;
     top: 0;
     background-color: black;
 }
-nav{
+
+nav {
+    padding: 20px;
     display: flex;
-    max-width: 80vw;
+    max-width: 83vw;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+}
+
+.main nav span img {
+    /* background-color: red; */
+    width: 136px;
+    position: relative;
+    z-index: 10;
+}
+
+.lang {}
+
+.hero {
+    font-family: "Martel Sans", serif;
+    font-style: normal;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    font-family: Segoe UI;
+}
+
+.hero span {
+    margin: 10px 0;
+}
+
+.hero>   :first-child {
+    font-weight: 900;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    max-width: 36vw;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto; */
+
+}
+.hero>   :nth-child(2){
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.hero>   :last-child{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.separation{
+    height: 2px;
+    color: red;
+}
+.btn{
+    padding: 3px 8px;
+    /* font-weight: bold; */
+    background-color: white;
+}
+.red-btn{
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    padding: 8px 25px;
+    border-radius: 4px;
+    border: 0px;
+}
+.sign-red-btn{
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    border: 0px;
+}
+.main input{
+    padding: 15px 161px 11px 20px;
+    border-radius: 4px;
+    border: 0px;
+    font-size: 15px;
+    text-align: left;
+    border: 1px solid red;
+    background-color: ;
 }
