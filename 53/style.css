@@ -5,9 +5,11 @@
     margin: 0;
 
 }
-body{
+
+body {
     background-color: black;
 }
+
 .main {
     background-image: url("assets/image/bg.jpg");
     background-position: center center;
@@ -30,7 +32,7 @@ body{
 nav {
     padding: 20px;
     display: flex;
-    max-width: 83vw;
+    max-width: 65vw;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -41,6 +43,10 @@ nav {
     width: 136px;
     position: relative;
     z-index: 10;
+}
+
+.btn {
+    z-index: 1;
 }
 
 .lang {}
@@ -64,58 +70,91 @@ nav {
     margin: 10px 0;
 }
 
-.hero>   :first-child {
+.hero> :first-child {
     font-weight: 900;
     font-size: 64px;
     color: rgb(255, 255, 255);
     display: flex;
-    max-width: 36vw;
+    max-width: 46vw;
     justify-content: space-between;
     align-items: center;
     /* margin: auto; */
 
 }
-.hero>   :nth-child(2){
+
+.hero> :nth-child(2) {
     font-weight: 600;
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
-.hero>   :last-child{
+
+.hero> :last-child {
     font-weight: 400;
     font-size: 16px;
     color: rgb(255, 255, 255);
 }
-.separation{
+
+.separation {
     height: 2px;
     color: red;
 }
-.btn{
+
+.subscribe {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+}
+
+.btn {
     padding: 3px 8px;
     /* font-weight: bold; */
-    background-color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border-radius: 4px;
+    /* border: 1px solid wheat; */
+    display: flex;
+    gap: 11px;
+    flex-direction: row;
 }
-.red-btn{
+
+.red-btn {
     background-color: red;
     color: white;
     font-size: 24px;
     padding: 8px 25px;
     border-radius: 4px;
     border: 0px;
+    font-weight: 600;
 }
-.sign-red-btn{
+
+.sign-red-btn {
     background-color: red;
     color: white;
     font-size: 13px;
     padding: 6px 16px;
     border-radius: 4px;
     border: 0px;
+    cursor: pointer;
 }
-.main input{
+
+.lang {
+    padding: 3px 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Segoe UI";
+    border: 1px solid rgba(236, 226, 226, 0.48);
+}
+
+.main input {
     padding: 15px 161px 11px 20px;
     border-radius: 4px;
     border: 0px;
     font-size: 15px;
     text-align: left;
     border: 1px solid red;
-    background-color: ;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(236, 226, 226, 0.48);
 }
