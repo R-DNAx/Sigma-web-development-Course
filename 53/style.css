@@ -95,8 +95,10 @@ nav {
 }
 
 .separation {
-    height: 2px;
+    height: 7px;
     color: red;
+    position: relative;
+    z-index: 20;
 }
 
 .subscribe {
@@ -157,4 +159,15 @@ nav {
     color: white;
     background-color: rgba(23, 23, 23, 0.2);
     border: 1px solid rgba(236, 226, 226, 0.48);
+}
+.first{
+    color: white;
+    position: relative;
+    font-family: "Segoe UI";
+    
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    
 }
