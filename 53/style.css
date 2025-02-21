@@ -95,10 +95,13 @@ nav {
 }
 
 .separation {
-    height: 7px;
-    color: red;
+    width: 100%;
+    height: 99px;
+    background-color: red;
     position: relative;
     z-index: 20;
+    border: 50%/50px ;
+    border-radius: 7px solid red, transparent, transparent, transparent;
 }
 
 .subscribe {
@@ -169,5 +172,22 @@ nav {
 .image{
     display: flex;
     flex-direction: row;
-    
+    gap: 45px;
+    justify-content: flex-start;
+}
+.image img{
+    border-radius: 10px;
+
+}
+.second{
+    font-family: "Segoe UI";
+    gap: 20px;
+}
+.multibox{
+    width: 375px;
+    height: 200px;
+    color: white;
+    background-color: rgb(23, 23, 39);
+    border-radius: 15px;
+    padding: 25px 13px;
 }
