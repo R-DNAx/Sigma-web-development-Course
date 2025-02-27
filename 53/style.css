@@ -254,7 +254,7 @@ nav {
 }
 
 .btn-faq{
-    padding: 1em;
+    padding: 0 1em;
     height: 3.5em;
     font-size: 1.5em;
     background-color: rgb(45, 45, 45);
@@ -263,4 +263,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.faqs{
+    font-size: 24px;
+    color: #e3e3e3;
 }
