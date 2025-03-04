@@ -48,19 +48,41 @@
 //     y = Symbol("Hello!");
 // }
 
-const student = {
-    fullName : "Rahul Singh",
-    age: 20,
-    cgpa: 8.2,
-    isPass: true
-};
+// const student = {
+//     fullName : "Rahul Singh",
+//     age: 20,
+//     cgpa: 8.2,
+//     isPass: true
+// };
 
-console.log(student.cgpa);
+// console.log(student.cgpa);
 
-student["age"] = student["age"] + 1;
+// student["age"] = student["age"] + 1;
 
-console.log(student.age);
+// console.log(student.age);
 
-student["name"] = "Rahul Kumar";
+// student["name"] = "Rahul Kumar";
 
-console.log(student.name);
+// console.log(student.name);
+
+// const product = {
+//     title: "Boll Pan",
+//     rating: 4,
+//     offer: 5,
+//     price: 270,
+// };
+
+// console.log(product);
+
+const profile = {
+    userName : "@shradhakhapra",
+    isFollow: true,
+    post: 195,
+    followers: 569,
+    following: 4,
+    information: "Entrepreneur", 
+    details: "apna_college_Ex-microsoft_DRDO",
+    bio: "To_educate_someone_is_the_highest_privilege",
+}
+
+console.log(typeof profile["post"]);
